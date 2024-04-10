@@ -41,14 +41,18 @@ div {
   flex-direction: column;
 }
 
-p {
+h4 {
   color: white;
   align-self: center;
   padding: 20px 0px 50px;
 }
 
 button {
-  max-width: 100px;
+  max-width: 150px;
   align-self: center;
   margin-bottom: 20px;
+}
+
+.display-6 {
+  font-family: Tahoma, sans-serif;
 }

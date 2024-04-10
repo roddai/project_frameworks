@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(97, 12, 104);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: blanchedalmond;
+  height: 100vh;
+}
+
+section {
+  padding: 30px 30px 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  align-self: center;
+}
+
+div {
+  width: 300px;
+  margin: 10px;
+  background-color:rgb(121, 63, 126);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: white;
+  align-self: center;
+  padding: 20px 0px 50px;
+}
+
+button {
+  max-width: 100px;
+  align-self: center;
+  margin-bottom: 20px;
+}

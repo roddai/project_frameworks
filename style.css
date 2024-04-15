@@ -67,3 +67,27 @@ button {
 .display-6 {
   font-family: Tahoma, sans-serif;
 }
+
+header .bi { 
+  margin-right: 10px;
+}
+
+/* #social {
+  background-color: rgb(97, 12, 104);
+  align-self:flex-end;
+} */
+
+footer {
+  background-color: rgb(97, 12, 104);
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .bi {
+  font-size: 30px;
+  margin: 0px 30px;
+}

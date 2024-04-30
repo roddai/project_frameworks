@@ -11,6 +11,23 @@ let data = {
     { nome: "Svelte", classBtn: "btn btn-dark" }]
 }
 
+
+// Definição de componentes
+let frameworksBlocks = Vue.extend({
+  data: function () {
+    return data;
+  },
+  template: '<section>' +
+    '<div class="framework" v-for="framework in frameworksFE">' +
+    '<h4 class="display-6">{{framework.nome}}</h4>' +
+    '<button :class="framework.classBtn">Saiba mais</button>' +
+    '</div>' +
+    '</section>'
+});
+
+//  Registro de componentes
+Vue.component('blocks', frameworksBlocks);
+
 new Vue({
   el: "#app",
   data: data,

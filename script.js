@@ -25,7 +25,17 @@ let frameworksBlocks = Vue.extend({
     '</section>'
 });
 
+let mainTitle = Vue.extend({
+  data: function () {
+    return data;
+  },
+  template: '<section>' +
+    '<h1 class="display-3">Principais Frameworks Front-End</h1>' +
+    '</section>'
+});
+
 //  Registro de componentes
+Vue.component('principal', mainTitle);
 Vue.component('blocks', frameworksBlocks);
 
 new Vue({

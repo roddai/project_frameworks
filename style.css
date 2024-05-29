@@ -17,13 +17,21 @@ a {
 }
 
 #login-area {
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-#pswd-id {
+form {
+  display: flex;
+}
+
+#bt-login {
+  margin-left: 10px;
+}
+
+#pswd-id, #pswd-area {
   margin-left: 10px;
 }
 
@@ -33,7 +41,6 @@ main {
 }
 
 main section {
-  padding: 30px 30px 15px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -61,7 +68,6 @@ h4 {
 button {
   max-width: 150px;
   align-self: center;
-  margin-bottom: 20px;
 }
 
 .display-6 {
@@ -71,11 +77,6 @@ button {
 header .bi { 
   margin-right: 10px;
 }
-
-/* #social {
-  background-color: rgb(97, 12, 104);
-  align-self:flex-end;
-} */
 
 footer {
   background-color: rgb(97, 12, 104);
@@ -90,4 +91,19 @@ footer {
 footer .bi {
   font-size: 30px;
   margin: 0px 30px;
+}
+
+#frameworks {
+  width: 85%;
+}
+
+#main-aside {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
 }
